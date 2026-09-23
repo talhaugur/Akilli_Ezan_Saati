@@ -50,14 +50,3 @@ SD_KART_KOK_DIZIN/
     ├── 0007.mp3   (Web Buton 2: Giremem o Cennetine)
     ├── 0008.mp3   (Web Buton 3: Ey Sevgili)
     └── 0009.mp3   (Web Buton 4: Fairouz & Biggie)
-
-⚙️ Kurulum ve Kullanım
-Gerekli Kütüphaneler: Arduino IDE üzerinden WiFiManager, ArduinoJson, LiquidCrystal_I2C, ve DFRobotDFPlayerMini kütüphanelerini yükleyin.
-
-API Anahtarı: Koddaki collectApiKey değişkenine CollectAPI üzerinden aldığınız kendi ücretsiz anahtarınızı girin.
-
-Cihazı Başlatın: Kodu ESP32'ye yükleyin. Cihaz ilk açılışta WiFi ağı bulamazsa Ezan-Saati-Kurulum adında bir Access Point açar. Bu ağa telefondan bağlanıp evinizin WiFi şifresini girin.
-
-Web Arayüzüne Erişim: LCD ekranda veya Serial Monitörde yazan IP adresini tarayıcınıza girerek kontrol paneline ulaşın.
-
-OTA Güncelleme: Kontrol panelinin en altındaki butondan veya http://<CİHAZ_IP>/update adresine girerek yeni yazılımları kablosuz yükleyin.
