@@ -1,4 +1,3 @@
-# Akilli_Ezan_Saati
 # 🕋 ESP32 Akıllı Ezan Saati ve Web Kontrollü Müzik Kutusu
 
 Bu proje, ESP32 mikrokontrolcüsü kullanılarak geliştirilmiş, WiFi bağlantılı, web arayüzünden kontrol edilebilen tam donanımlı bir **Akıllı Ezan Saati ve İlahi Çalar** sistemidir. 
@@ -9,7 +8,7 @@ Sistem, internet üzerinden güncel namaz vakitlerini çeker, vakit girdiğinde 
 
 - **WiFiManager Entegrasyonu:** Kod içerisine WiFi SSID ve şifre gömmeye gerek yoktur. Cihaz ağ bulamazsa kendi kurulum ağını (`Ezan-Saati-Kurulum`) açar ve telefondan modem seçilmesine olanak tanır.
 - **Kesintisiz Web Arayüzü (AJAX):** Sayfa yenilenmesine gerek kalmadan ses açma/kısma, ilahi başlatma ve durdurma işlemleri arka planda gerçekleşir. Dinamik bir ses seviyesi barı (Progress Bar) bulunur.
-- **Kayan Ayet Ekranı (Ghosting Korumalı):** 16x2 I2C LCD ekranda Şehir, Vakit ve Kalan Süre bilgilerinin yanı sıra, 35 farklı ayet meali sırayla ve kayarak (marquee) gösterilir. Ekran titremesi ve harf kalıntısı (ghosting) problemleri tam 16 karaktere tamamlama yöntemiyle çözülmüştür.
+- **Kayan Ayet Ekranı (Ghosting Korumalı):** 16x2 I2C LCD ekranda Şehir, Vakit ve Kalan Süre bilgilerinin yanı sıra, 35 farklı ayet meali sırayla ve 2 tur atarak (marquee) gösterilir. Ekran titremesi ve harf kalıntısı (ghosting) problemleri tam 16 karaktere tamamlama yöntemiyle çözülmüştür.
 - **Kablosuz Güncelleme (OTA):** Cihazı kutusundan çıkarmadan, `/update` adresi üzerinden `.bin` dosyası ile tarayıcıdan yeni yazılım yüklenebilir.
 - **NTP Saat & API Senkronizasyonu:** İnternet üzerinden gerçek zamanlı saat (NTP) ve CollectAPI üzerinden il bazlı anlık namaz vakitleri senkronizasyonu.
 
